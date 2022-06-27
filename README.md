@@ -8,12 +8,12 @@ Most kubernetes resouces(example-pods,services,replication controller and others
 
 Use cases of K8s namespace:
 <br/>
- <li>
-    <ol>Structure your component</ol>
-    <ol>Avoid conflict between teams</ol>
-    <ol>Share services between different environments</ol>
-    <ol>Access and resource limits on Namespace level</ol>
- </li>
+ <ol>
+    <li>Structure your component</li>
+    <li>Avoid conflict between teams</li>
+    <li>Share services between different environments</li>
+    <li>Access and resource limits on Namespace level</li>
+ </ol>
 
 
  *******
@@ -26,7 +26,7 @@ Use cases of K8s namespace:
 
  To see configmap-
 
-    kubectl get coooonfigmap
+    kubectl get configmap
 
 To see configmap in specific namespace-
 
