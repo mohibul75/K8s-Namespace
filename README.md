@@ -4,6 +4,12 @@ Kubernetes resources are orgranized in Namespace.<br/>
 
 Most kubernetes resouces(example-pods,services,replication controller and others) are in same nameespace.But, low level resources such as nodes and persistent volume are not in any namespace.
 
+<br/>
+
+Namespaces create virtual clusters within a
+ physical Kubernetes cluster to help users 
+avoid resource naming conflicts and manage capacity, among others.
+
 *******
 
 Use cases of K8s namespace:
