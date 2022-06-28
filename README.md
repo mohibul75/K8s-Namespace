@@ -46,7 +46,7 @@ There are two way to create new namespace. one is create by kubectl command and 
 
 created by command 
 
-   kubectl apply -f <yml file name> --namespace=<namespace name>
+    kubectl apply -f <yml file name> --namespace=<namespace name>
 
 created by yml file<br/>
 
@@ -63,26 +63,26 @@ Defaultly , every resource creates on default namespace. To create resource in a
 
 namespace switching by command 
 
-   kubectl config set-context $(kubectl config current-context) --namespace=<ns name>
+    kubectl config set-context $(kubectl config current-context) --namespace=<ns name>
 
  using kubens is another way to switching namespace.
 
  kubens command to see namespace
    
-   kubens
+    kubens
 
 kubens command to switsching namespace
 
-   kubens <ns name>
+    kubens <ns name>
 
 *************
 
 <h3>Kubens & kubectx Installation</h3>
 
-   sudo git clone https://github.com/ahmetb/kubectx /opt/kubectx
+    sudo git clone https://github.com/ahmetb/kubectx /opt/kubectx
 
-   sudo ln -s /opt/kubectx/kubectx /usr/local/bin/kubectx
+    sudo ln -s /opt/kubectx/kubectx /usr/local/bin/kubectx
 
-   sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens
+    sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens
 
 
